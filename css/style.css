@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "Graphik LC TT";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Graphik LC TT"),
+    url(../fonts/GraphikLCG-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Graphik LC TT";
+    font-weight: 600;
+    font-style: normal;
+    src: local("Graphik LC TT"),
+    url(../fonts/GraphikLCG-Semibold.ttf);
+}
+
+body {
+    max-width: 1880px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.font {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-big {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/*header*/
+
+/*top*/
+
+.top-nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.logo {
+    margin: 0 50px;
+}
+
+.head-menu {
+    flex-grow: 1;
+    padding: 0;
+    list-style: none;
+}
+
+.head-menu li {
+    margin-right: 56px;
+}
+
+.head-menu li a {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.fonts-fix{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.head-menu li :last-child {
+    margin-right: 0;
+}
+
+.btn-together {
+    margin: 0 50px;
+}
+
+
+.btn-white {
+    margin-right: 10px;
+    min-width: 120px;
+    max-height: 45px;
+    background-color: #FFFFFF;
+}
+
+.btn-white :hover {
+    background: #ecc5c5;
+}
+
+.btn-white a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-white a:hover {
+    text-decoration: underline;
+}
+
+.btn-orange {
+     background: #FF6336;
+     border: none;
+     min-width: 120px;
+     max-height: 45px;
+}
+
+.btn-orange a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn-orange a:hover {
+    text-decoration: underline;
+}
+
+.btn-orange :hover {
+    background-color: #7e4b4b;
+}
+
+.divider {
+    border: 1px solid #EFEFEF;
+}
+
+/*large*/
+
+.section-large {
+    margin-bottom: 172px;
+}
+
+.left-section-large {
+    flex-direction: column;
+    max-width: 552px;
+    margin-top: 124px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.img {
+    margin-top: 150px;
+    min-height: 530px;
+    max-width: 708px;
+    margin-right: 70px;
+}
+
+.fix-big-font {
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.fix-font {
+    max-width: 470px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.btns {
+    margin-bottom: 24px;
+}
+
+.btn-with-white {
+    min-width: 160px;
+    min-height: 60px;
+    background: #FF6336;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-with-black {
+    min-width: 160px;
+    min-height: 60px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-with-white a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn-with-white a:hover {
+    text-decoration: underline;
+}
+
+.btn-with-black a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.btn-with-black a:hover {
+    text-decoration: underline;
+}
+
+/*small*/
+
+.bcg {
+    background-color: #FF9C7D;
+}
+
+.section-small {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 104px;
+    margin-left: 75px;
+}
+
+.tool-companies {
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 720px;
+    text-align: center;
+    color: #000000;
+}
+
+.logo-companies {
+    justify-content: space-between;
+    flex-grow: 2;
+    margin: 70px 104px;
+}
+
+/*main*/
+
+/*center*/
+
+.section-center {
+    height: 632px;
+    margin-top: 90px;
+    margin-bottom: 250px;
+    margin-left: 75px;
+}
+
+.left-section {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 138px;
+}
+
+.head-text {
+    max-width: 492px;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.description {
+    max-width: 492px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.start_now {
+    max-width: 96px;
+}
+
+.fix-left-section {
+    margin: 0 0 0 138px;
+    align-items: flex-end;
+}
+
+.fix-head-text {
+    min-width: 378px;
+}
+
+.fix-description {
+    max-width: 492px;
+}
+
+.fix-start_now {
+    min-width: 492px;
+}
+
+.description-fixed {
+    max-width: 520px;
+}
+
+.start_now-new {
+    min-width: 520px;
+}
+
+.fix-section-center {
+    margin-bottom: 150px;
+}
+
+/*cards*/
+
+.bcg-color {
+    background-color: #FFF8E4;
+}
+
+.text-local {
+    padding-top: 120px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.changes-font-big{
+    max-width: 890px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.cards .item {
+    padding: 20px 14px 0;
+    margin-right: 134px;
+    margin-left: 114px;
+    text-align: center;
+}
+
+.item-img_wrap{
+    margin-bottom: 26px;
+}
+
+.item-tools {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.benefits-tools {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
