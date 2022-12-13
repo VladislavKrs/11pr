@@ -48,7 +48,8 @@
 .top-nav {
   justify-content: space-between;
   align-items: center;
-  height: 96px;
+  padding: 24px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -87,13 +88,10 @@
   min-width: 120px;
   max-height: 45px;
   background-color: #FFFFFF;
-}
-.btn-white a {
   color: #000000;
-  text-decoration: none;
 }
 .btn-white:hover {
-  text-decoration: underline;
+  cursor: pointer;
   background-color: #dfd1cd;
 }
 
@@ -102,13 +100,10 @@
   border: none;
   min-width: 120px;
   max-height: 45px;
-}
-.btn-orange a {
   color: #FFFFFF;
-  text-decoration: none;
 }
 .btn-orange:hover {
-  text-decoration: underline;
+  cursor: pointer;
   background-color: #dfd1cd;
 }
 
@@ -116,6 +111,7 @@
   border: 1px solid #EFEFEF;
 }
 
+/*main*/
 /*large*/
 .section-large {
   margin-bottom: 172px;
@@ -123,17 +119,15 @@
 
 .left-section-large {
   flex-direction: column;
-  max-width: 552px;
-  margin-top: 124px;
-  margin-left: 70px;
-  margin-right: 50px;
+  padding-top: 124px;
+  padding-left: 70px;
+  padding-right: 50px;
 }
 
 .img {
-  margin-top: 150px;
-  min-height: 530px;
+  padding-top: 150px;
   max-width: 708px;
-  margin-right: 70px;
+  padding-right: 70px;
 }
 
 .fix-big-font {
@@ -161,14 +155,11 @@
   background: #FF6336;
   border: none;
   margin-right: 10px;
-}
-.btn-with-white a {
   color: #FFFFFF;
-  text-decoration: none;
 }
 .btn-with-white:hover {
-  text-decoration: underline;
   background-color: #dfd1cd;
+  cursor: pointer;
 }
 
 .btn-with-black {
@@ -176,14 +167,11 @@
   min-height: 60px;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.5);
-}
-.btn-with-black a {
   color: #000000;
-  text-decoration: none;
 }
 .btn-with-black:hover {
-  text-decoration: underline;
   background-color: #dfd1cd;
+  cursor: pointer;
 }
 
 /*small*/
@@ -195,7 +183,8 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 104px;
-  margin-left: 75px;
+  padding-left: 75px;
+  margin: 0 auto;
 }
 
 .tool-companies {
@@ -213,10 +202,8 @@
   padding: 0 104px 70px;
 }
 
-/*main*/
 /*center*/
 .section-center {
-  height: 632px;
   margin-top: 90px;
   margin-bottom: 250px;
   padding-left: 76px;
@@ -226,6 +213,7 @@
   flex-direction: column;
   justify-content: center;
   padding-right: 138px;
+  margin: 0 auto;
 }
 
 .head-text {
@@ -245,11 +233,25 @@
 }
 
 .start_now {
-  max-width: 96px;
+  max-width: 76px;
+}
+.start_now a {
+  text-decoration: none;
+  color: #000000;
+}
+.start_now:hover {
+  text-decoration: underline;
+  background-color: #dfd1cd;
+  cursor: pointer;
 }
 
 .img-center {
+  margin: 0 auto;
   padding-right: 76px;
+}
+
+.img-center2 {
+  margin: 0 auto;
 }
 
 .fix-left-section {
@@ -321,19 +323,22 @@
 
 /*new-cards*/
 .text-productivity {
-  max-width: 1240px;
+  max-width: 1287px;
   padding-top: 154px;
   padding-left: 74px;
+  padding-right: 74px;
   margin-bottom: 76px;
 }
 
 .new-cards {
   justify-content: space-between;
   margin-left: 74px;
+  margin-right: 74px;
   margin-bottom: 188px;
 }
 .new-cards .card {
   width: 33.3%;
+  margin: 0 auto;
 }
 .new-cards .card-img_wrap {
   min-height: 210px;
@@ -488,10 +493,7 @@
   height: 60px;
   background: #FF6336;
   border: none;
-}
-.footer-top .btn-orange-footer a {
   color: #FFFFFF;
-  text-decoration: none;
 }
 .footer-top .btn-orange-footer:hover {
   text-decoration: underline;
@@ -525,29 +527,33 @@
   height: 60px;
   background: #000000;
   border: none;
-}
-.footer-small .btn-black a {
   color: #FFFFFF;
-  text-decoration: none;
 }
 .footer-small .btn-black:hover {
   text-decoration: underline;
   background-color: #dfd1cd;
 }
 
+/*footer-main*/
 .bg-grey {
   background-color: #EEEEEE;
 }
 
-/*footer-main*/
 .footer-main {
   padding: 92px 76px 0;
 }
 .footer-main-header {
   font-size: 40px;
   line-height: 50px;
-  color: #000000;
+  max-width: 258px;
   margin-bottom: 28px;
+}
+.footer-main-header a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-main-header:hover {
+  text-decoration: underline;
 }
 .footer-main-left {
   padding-bottom: 96px;
@@ -574,9 +580,16 @@
 }
 
 .cycles-more {
+  max-width: 106px;
   font-size: 20px;
   line-height: 30px;
+}
+.cycles-more a {
+  text-decoration: none;
   color: #000000;
+}
+.cycles-more:hover {
+  text-decoration: underline;
 }
 
 .info-basic-content {
@@ -593,14 +606,27 @@
 .footer-main-basic .basic-content {
   font-size: 20px;
   line-height: 25px;
-  color: #000000;
   margin-bottom: 20px;
+}
+.footer-main-basic .basic-content a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-main-basic .basic-content:hover {
+  text-decoration: underline;
 }
 .footer-main-basic .content {
   font-size: 15px;
   line-height: 15px;
   color: #000000;
   margin-bottom: 16px;
+}
+.footer-main-basic .content a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-main-basic .content:hover {
+  text-decoration: underline;
 }
 
 .divider-footer {
