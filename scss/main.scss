@@ -43,6 +43,10 @@
     .together {
         flex-direction: column;
         padding: 24px 20px 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px;
+        margin: 0 auto;
     }
     .logo {
         margin-bottom: 20px;
@@ -201,6 +205,7 @@
             }
         }
 }
+
 
 .divider {
     border: 1px solid #EFEFEF;
